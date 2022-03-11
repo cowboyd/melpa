@@ -2,4 +2,4 @@
  :fetcher github
  :repo "thefrontside/frontmacs"
  :files ("packages/javascript/*.el"
-         (:exclude "packages/javascript/*-test.el")))
+         (:exclude "packages/javascript/*-test.el" "packages/javascript/test-support.el")))
